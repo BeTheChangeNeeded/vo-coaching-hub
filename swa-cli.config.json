@@ -1,0 +1,9 @@
+{
+  "configurations": {
+    "coaching-hub": {
+      "appLocation": ".",
+      "apiLocation": "api",
+      "outputLocation": ""
+    }
+  }
+}
