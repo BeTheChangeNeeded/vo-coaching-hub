@@ -1,0 +1,18 @@
+{
+  "id": "mpma",
+  "name": "MPMA Career Center",
+  "shortName": "MPMA",
+  "tagline": "Career tools for MPMA members — powered by VisionOne.",
+  "theme": {
+    "primary": "#13314f",
+    "primaryDeep": "#0c2034",
+    "accent": "#c8a04b",
+    "sidebar": "#13314f",
+    "sidebarDeep": "#0c2034",
+    "bg": "#f5f6f8",
+    "surface": "#ffffff",
+    "text": "#1a2330"
+  },
+  "tools": ["guided", "dashboard", "resume-tailor", "mock-interview", "career-coach", "jobs", "compensation", "trimetrix", "coaching-summary"],
+  "coachInstructions": "Members are association professionals; weight advice toward association management, member-services, and nonprofit career paths."
+}

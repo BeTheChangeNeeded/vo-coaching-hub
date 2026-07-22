@@ -1,0 +1,189 @@
+/* VisionOne Coaching Hub — component styles layered on the shared design system. */
+
+/* Buttons */
+.btn { display: inline-flex; align-items: center; gap: 6px; font: inherit; font-weight: 700; font-size: 14px;
+  padding: 10px 18px; border-radius: var(--wt-radius-sm); border: 1px solid transparent; cursor: pointer;
+  background: var(--primary); color: #fff; transition: filter var(--wt-transition-fast), background var(--wt-transition-fast); width: auto; }
+.btn:hover { filter: brightness(1.05); }
+.btn:disabled { opacity: .55; cursor: default; }
+.btn.primary { background: var(--primary); }
+.btn.accent { background: var(--accent); }
+.btn.ghost { background: #fff; color: var(--text); border-color: var(--border); font-weight: 600; }
+.btn.ghost:hover { background: var(--soft); filter: none; }
+.btn.danger { background: #fff; color: var(--vo-red); border-color: #f3c6c2; }
+.btn.small { padding: 6px 12px; font-size: 13px; }
+.btn-row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-top: 8px; }
+
+/* Inputs (align width:auto override for our controls) */
+.input { width: 100%; }
+.list-row, .pairs-row { display: flex; gap: 8px; align-items: center; margin-bottom: 8px; }
+.pairs-head { display: grid; grid-template-columns: 1fr 1fr 34px; gap: 8px; font-size: 12px; color: var(--muted); font-weight: 700; margin-bottom: 4px; }
+.pairs-row { display: grid; grid-template-columns: 1fr 1fr 34px; }
+.iconbtn.ghost { border-color: transparent; color: var(--muted); padding: 6px 8px; }
+.iconbtn.ghost:hover { color: var(--vo-red); background: #fef2f2; }
+
+/* Exercise cards */
+.exercise { position: relative; }
+.exercise-head { display: flex; align-items: center; justify-content: space-between; gap: 10px; }
+.exercise-head h3 { margin: 0; font-family: var(--wt-font-head); font-size: 20px; color: var(--text); }
+.exercise-purpose { color: var(--muted); margin: 6px 0 16px; line-height: 1.6; }
+.card.scripture { background: #f3f7f1; border-color: #dbe8d5; padding: 14px 16px; margin: 0 0 12px; }
+.card.science { background: #eef6fb; border-color: #cfe6f2; padding: 14px 16px; margin: 0 0 12px; }
+.chip-label { display: inline-block; font-size: 11px; letter-spacing: .04em; text-transform: uppercase; font-weight: 800; color: var(--primary-deep); margin-bottom: 6px; }
+.card.science .chip-label { color: var(--accent); }
+.scripture-line { font-style: italic; color: #33502c; line-height: 1.5; margin: 2px 0; }
+
+/* Steps */
+.step { border-top: 1px solid var(--border); padding: 16px 0 6px; margin-top: 8px; }
+.step:first-of-type { border-top: none; }
+.step-label { font-weight: 800; font-size: 14px; color: var(--text); }
+.step-prompt { color: var(--muted); font-size: 14px; margin: 3px 0 10px; line-height: 1.55; }
+.save-badge { position: absolute; right: 0; top: 2px; font-size: 12px; color: var(--primary-deep); opacity: 0; transition: opacity var(--wt-transition-fast); }
+.step { position: relative; }
+.save-badge.show { opacity: 1; }
+
+/* AI assist */
+.ai-assist { margin-top: 8px; }
+.ai-assist-out { margin-top: 8px; }
+.ai-assist-label { font-weight: 700; font-size: 13px; margin-bottom: 6px; color: var(--primary-deep); }
+.card.soft { background: var(--soft); border-color: var(--border); box-shadow: none; padding: 14px 16px; }
+
+/* Tables */
+table.grid { width: 100%; border-collapse: collapse; margin-bottom: 8px; }
+table.grid th { text-align: left; font-size: 12px; color: var(--muted); font-weight: 700; padding: 4px 6px; }
+table.grid td { padding: 3px 6px; vertical-align: top; }
+
+/* Life wheel */
+.wheel-row { display: grid; grid-template-columns: 160px 1fr 34px; align-items: center; gap: 12px; margin-bottom: 10px; }
+.wheel-row label { font-size: 13px; font-weight: 600; }
+.wheel-row input[type=range] { width: 100%; }
+.wheel-num { font-weight: 800; color: var(--primary-deep); text-align: right; }
+
+/* Journey / dashboard cards */
+.hero { background: linear-gradient(135deg, #f3f7f1, #eef6fb); border: 1px solid #dbe8d5; border-radius: var(--wt-radius-xl); padding: 30px 32px; margin-bottom: 20px; }
+.hero h2 { font-family: var(--wt-font-head); font-size: 26px; margin: 0 0 8px; }
+.hero p { color: var(--muted); max-width: 720px; line-height: 1.6; margin: 0 0 8px; }
+.journey-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 16px; }
+.journey-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--wt-radius-lg); padding: 20px; cursor: pointer; box-shadow: var(--wt-shadow-1); transition: transform var(--wt-transition-fast), box-shadow var(--wt-transition-fast); }
+.journey-card:hover { transform: translateY(-2px); box-shadow: var(--wt-shadow-2); }
+.journey-card .jc-icon { font-size: 26px; }
+.journey-card h4 { margin: 8px 0 2px; font-family: var(--wt-font-head); font-size: 17px; }
+.journey-card .jc-statement { color: var(--primary-deep); font-weight: 700; font-size: 13px; margin-bottom: 4px; }
+.journey-card .jc-tag { color: var(--muted); font-size: 13px; line-height: 1.5; }
+.progress { height: 8px; border-radius: 999px; background: #e7ede4; overflow: hidden; margin-top: 12px; }
+.progress > span { display: block; height: 100%; background: var(--primary); border-radius: 999px; transition: width .4s var(--wt-ease); }
+.progress-label { font-size: 12px; color: var(--muted); margin-top: 5px; }
+
+/* Steppers / pill tabs */
+.tabbar { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 16px; }
+.tabbar button { background: #eef2f7; border: 1px solid var(--border); color: #334155; border-radius: 999px; padding: 7px 14px; font-size: 13px; font-weight: 600; cursor: pointer; width: auto; }
+.tabbar button.active { background: var(--primary); color: #fff; border-color: var(--primary); }
+
+/* Chat (coach companion) */
+.chat-log { display: flex; flex-direction: column; gap: 12px; margin-bottom: 14px; max-height: 56vh; overflow-y: auto; padding-right: 4px; }
+.msg { max-width: 82%; padding: 12px 15px; border-radius: 14px; line-height: 1.55; font-size: 14px; }
+.msg.user { align-self: flex-end; background: var(--primary); color: #fff; border-bottom-right-radius: 4px; }
+.msg.assistant { align-self: flex-start; background: var(--soft); border: 1px solid var(--border); border-bottom-left-radius: 4px; }
+.msg .md p:first-child { margin-top: 0; } .msg .md p:last-child { margin-bottom: 0; }
+
+/* Markdown blocks */
+.md { line-height: 1.6; } .md h1,.md h2,.md h3 { font-family: var(--wt-font-head); margin: 1em 0 .4em; }
+.md ul { padding-left: 1.2em; } .md table { border-collapse: collapse; width: 100%; } .md td,.md th { border: 1px solid var(--border); padding: 6px 8px; }
+
+/* Misc */
+.small { font-size: 13px; } .muted { color: var(--muted); }
+.track-name-line { font-size: 12px; color: #9fb3c8; margin-top: 6px; }
+.badge { display: inline-block; font-size: 11px; font-weight: 700; padding: 3px 9px; border-radius: 999px; background: #eef2f7; color: #334155; }
+.badge.ok { background: #dcfce7; color: #166534; } .badge.wait { background: #fef9c3; color: #854d0e; }
+.toast { position: fixed; bottom: 22px; left: 50%; transform: translateX(-50%) translateY(20px); background: var(--sidebar); color: #fff; padding: 12px 20px; border-radius: 10px; box-shadow: var(--wt-shadow-2); opacity: 0; transition: all var(--wt-transition-med); z-index: 9999; }
+.toast.show { opacity: 1; transform: translateX(-50%) translateY(0); }
+.empty { text-align: center; color: var(--muted); padding: 30px; }
+.list-note { display: flex; justify-content: space-between; gap: 10px; padding: 12px 14px; border: 1px solid var(--border); border-radius: var(--wt-radius-md); margin-bottom: 10px; background: #fff; }
+.list-note .when { font-size: 12px; color: var(--muted); }
+/* Full-width top banner with the VisionOne color logo (matches Course Builder) */
+.app-banner { position: sticky; top: 0; z-index: 200; height: 74px; background: #fff; border-bottom: 1px solid var(--border);
+  display: flex; align-items: center; justify-content: space-between; padding: 0 26px; box-shadow: 0 1px 0 rgba(15,23,42,.03); }
+.app-banner-logo { height: 50px; width: auto; display: block; }
+.app-banner-word { font-family: var(--wt-font-head); font-size: 22px; color: var(--sidebar); font-weight: 800; }
+.app-banner-right { display: flex; align-items: center; gap: 12px; color: var(--muted); font-size: 13px; }
+.banner-user { color: var(--text); font-weight: 600; }
+.banner-avatar { width: 36px; height: 36px; border-radius: 999px; background: var(--sidebar); color: #fff; display: inline-grid; place-items: center; font-weight: 800; font-size: 15px; }
+@media (max-width: 640px) { .banner-user { display: none; } .app-banner-logo { height: 40px; } }
+
+/* Sidebar header — clean centered text title + subtitle on the dark sidebar */
+.brand { display: block !important; margin-bottom: 8px; }
+.vo-head { padding: 4px 12px 18px; border-bottom: 1px solid rgba(255,255,255,.10); text-align: center; }
+.vo-head-title { font-family: var(--wt-font-head); font-size: 21px; font-weight: 800; color: #fff; line-height: 1.15; }
+.vo-head-sub { font-size: 11.5px; color: rgba(255,255,255,.65); margin-top: 4px; }
+
+/* Layout: fixed banner on top; below it the sidebar and the main content each
+   scroll independently, so the content always has its own right-side scrollbar.
+   NOTE: .content must NOT use margin:auto (that cancels grid stretch and collapses
+   height:100%), so we center the inner content instead. */
+html, body { height: 100%; margin: 0; }
+body { overflow: hidden; }
+.app-banner { position: static; }
+#app { height: calc(100vh - 74px); }
+/* The whole sidebar scrolls (like the Course Builder), so a tall footer never
+   squeezes the nav to zero and the left scrollbar always appears when needed. */
+.sidebar { display: flex; flex-direction: column; height: 100%; min-height: 0; overflow-y: auto; }
+.sidebar #nav { flex: 0 0 auto; }
+.sidebar-foot { flex: 0 0 auto; }
+.content { height: 100%; min-height: 0; overflow-y: auto; max-width: none; width: auto; margin: 0; }
+.content > .topbar, .content > #view { max-width: 1100px; margin-left: auto; margin-right: auto; }
+.sidebar::-webkit-scrollbar { width: 9px; }
+.sidebar::-webkit-scrollbar-thumb { background: rgba(255,255,255,.28); border-radius: 8px; }
+.sidebar::-webkit-scrollbar-track { background: transparent; }
+.sidebar { scrollbar-width: thin; scrollbar-color: rgba(255,255,255,.32) transparent; }
+
+/* Exercise header help buttons — spaced out */
+.help-row { display: flex; flex-wrap: wrap; gap: 12px; margin: 4px 0 6px; }
+.help-out { margin: 4px 0 10px; }
+
+/* Per-field help (examples / prompts / ask) on every text box */
+.btn.xsmall { padding: 4px 10px; font-size: 12px; font-weight: 600; }
+.step-help { margin-top: 8px; }
+.step-help-bar { display: flex; flex-wrap: wrap; gap: 10px; }
+.step-help-out { margin-top: 8px; }
+.ask-row { display: flex; gap: 8px; align-items: center; }
+.ask-row .input { flex: 1; }
+
+/* Inline mic next to inputs */
+.input-with-mic { display: flex; gap: 6px; align-items: center; }
+.input-with-mic .input { flex: 1; }
+.mini-mic { flex: 0 0 auto; padding: 6px 9px; }
+.iconbtn.rec { background: #fee2e2; border-color: #fca5a5; color: #991b1b; }
+
+/* Demographic form fields */
+.demo-field { margin-bottom: 4px; }
+.demo-field label { display: block; margin-bottom: 3px; }
+.chk { display: inline-flex; align-items: center; gap: 4px; margin-right: 12px; font-size: 13px; }
+.chk input { width: auto; }
+
+/* Admin analytics */
+.stat-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 12px; }
+.stat { background: var(--soft); border: 1px solid var(--border); border-radius: var(--wt-radius-md); padding: 14px; text-align: center; }
+.stat-num { font-family: var(--wt-font-head); font-size: 26px; color: var(--primary-deep); }
+.stat-label { font-size: 12px; color: var(--muted); margin-top: 2px; }
+.bar-row { display: grid; grid-template-columns: 90px 1fr 32px; align-items: center; gap: 8px; margin-bottom: 6px; font-size: 13px; }
+.bar-label { text-transform: capitalize; color: var(--muted); }
+.bar { background: #e7ede4; border-radius: 999px; height: 10px; overflow: hidden; }
+.bar > span { display: block; height: 100%; background: var(--primary); border-radius: 999px; }
+.bar-num { text-align: right; font-weight: 700; color: var(--primary-deep); }
+
+/* Core Values card sort */
+.value-card { font-family: var(--wt-font-head); font-size: 34px; font-weight: 800; color: var(--sidebar); text-align: center;
+  background: linear-gradient(135deg, #f3f7f1, #eef6fb); border: 1px solid #dbe8d5; border-radius: var(--wt-radius-xl);
+  padding: 44px 20px; margin: 0 auto 14px; max-width: 460px; box-shadow: var(--wt-shadow-1); }
+.chip-cloud { display: flex; flex-wrap: wrap; gap: 8px; margin: 12px 0 16px; }
+.value-chip { background: #eef2f7; border: 1px solid var(--border); color: #334155; border-radius: 999px; padding: 8px 14px; font-size: 14px; font-weight: 600; cursor: pointer; display: inline-flex; align-items: center; gap: 6px; }
+.value-chip:hover { background: #e2e8f0; }
+.value-chip .x { color: var(--vo-red); font-size: 11px; }
+.value-chip.selected { background: var(--primary); color: #fff; border-color: var(--primary); }
+.value-chip .rank { background: rgba(255,255,255,.3); border-radius: 999px; width: 18px; height: 18px; display: inline-grid; place-items: center; font-size: 11px; font-weight: 800; }
+
+/* Coach picker */
+.coach-option { display: flex; gap: 10px; align-items: flex-start; padding: 12px 14px; border: 1px solid var(--border); border-radius: var(--wt-radius-md); margin-bottom: 8px; cursor: pointer; background: #fff; }
+.coach-option:hover { background: var(--soft); }
+.coach-option.selected { border-color: var(--primary); box-shadow: 0 0 0 2px rgba(100,153,84,.18); }
+.coach-option input[type=radio] { width: auto; margin-top: 3px; }

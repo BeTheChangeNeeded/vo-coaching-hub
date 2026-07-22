@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VisionOne Coaching Hub</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400&family=Sanchez:ital@0;1&display=swap" />
+  <link rel="stylesheet" href="/assets/css/styles.css" />
+  <link rel="stylesheet" href="/assets/css/coaching.css" />
+  <!-- In-browser document parsing (upload TriMetrix HD PDF / Word without a big upload) -->
+  <script src="https://cdn.jsdelivr.net/npm/mammoth@1.8.0/mammoth.browser.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.min.js"></script>
+  <script>if(window.pdfjsLib){pdfjsLib.GlobalWorkerOptions.workerSrc='https://cdnjs.cloudflare.com/ajax/libs/pdf.js/3.11.174/pdf.worker.min.js';}</script>
+  <!-- Markdown rendering for reports & AI output -->
+  <script src="https://cdn.jsdelivr.net/npm/marked@12.0.2/marked.min.js"></script>
+</head>
+<body>
+  <header class="app-banner">
+    <img class="app-banner-logo" src="/assets/img/visionone-logo-color.png" alt="VisionOne High Performance Group" onerror="this.replaceWith(Object.assign(document.createElement('span'),{className:'app-banner-word',textContent:'VisionOne'}))" />
+    <div class="app-banner-right" id="bannerRight"></div>
+  </header>
+  <div id="app">
+    <aside class="sidebar">
+      <div class="brand" id="brand"></div>
+      <nav id="nav"></nav>
+      <div class="sidebar-foot">
+        <div id="account" class="account"></div>
+        <label class="tenant-switch">
+          <span>Your journey</span>
+          <select id="trackSelect"></select>
+        </label>
+        <div class="track-name-line">Current: <b id="trackName"></b></div>
+        <label class="tenant-switch" id="roleWrap" style="margin-top:12px">
+          <span>View as (demo)</span>
+          <select id="roleSelect">
+            <option value="coachee">Coachee</option>
+            <option value="coach">Coach</option>
+            <option value="admin">Admin</option>
+          </select>
+        </label>
+        <label class="tenant-switch" id="providerWrap" style="display:none;margin-top:12px">
+          <span>AI model (A/B)</span>
+          <select id="providerSelect"></select>
+        </label>
+        <p class="disclaimer">Your workspace is saved to your account and private unless you choose to share it with a coach. <a href="/privacy.html" style="color:inherit;text-decoration:underline">Privacy</a></p>
+      </div>
+    </aside>
+    <main class="content">
+      <header class="topbar">
+        <h1 id="viewTitle">Welcome</h1>
+        <p id="viewTagline" class="tagline"></p>
+      </header>
+      <section id="view"></section>
+    </main>
+  </div>
+  <script src="/assets/js/store.js"></script>
+  <script src="/assets/js/content.js"></script>
+  <script src="/assets/js/api.js"></script>
+  <script src="/assets/js/exercise.js"></script>
+  <script src="/assets/js/tools/about.js"></script>
+  <script src="/assets/js/tools/profile.js"></script>
+  <script src="/assets/js/tools/guided.js"></script>
+  <script src="/assets/js/tools/dashboard.js"></script>
+  <script src="/assets/js/tools/anchors.js"></script>
+  <script src="/assets/js/tools/pillar.js"></script>
+  <script src="/assets/js/tools/values.js"></script>
+  <script src="/assets/js/tools/journal.js"></script>
+  <script src="/assets/js/tools/trimetrix.js"></script>
+  <script src="/assets/js/tools/goals.js"></script>
+  <script src="/assets/js/tools/coach-companion.js"></script>
+  <script src="/assets/js/tools/reports.js"></script>
+  <script src="/assets/js/tools/resources.js"></script>
+  <script src="/assets/js/tools/coach.js"></script>
+  <script src="/assets/js/tools/admin.js"></script>
+  <script src="/assets/js/app.js"></script>
+</body>
+</html>

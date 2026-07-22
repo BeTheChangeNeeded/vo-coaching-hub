@@ -1,0 +1,22 @@
+{
+  "id": "ministry",
+  "name": "Identity to Impact",
+  "audience": "Ministry / Faith",
+  "tagline": "Discover your identity, mission, calling, and vision — and the legacy God is building through you.",
+  "faith": true,
+  "terms": {},
+  "coachInstructions": "This is the faith-based (ministry) track. Ground encouragement in a Christian worldview and Scripture where natural. Speak of God, calling, prayer, and legacy freely. Be warm, hope-filled, and pastoral while staying practical.",
+  "resources": [
+    { "section": "general", "type": "Tool", "title": "Bible Gateway", "url": "https://www.biblegateway.com/", "description": "Read and search Scripture in dozens of translations." },
+    { "section": "general", "type": "App", "title": "YouVersion Bible App", "url": "https://www.youversion.com/the-bible-app/", "description": "Free Bible with hundreds of guided reading plans." },
+    { "section": "anchors", "type": "Book", "title": "Switch On Your Brain — Dr. Caroline Leaf", "url": "https://drleaf.com/", "description": "The science of renewing your mind (neuroplasticity + Scripture)." },
+    { "section": "anchors", "type": "Book", "title": "Ordering Your Private World — Gordon MacDonald", "url": "https://www.gordonmacdonald.com/", "description": "Prioritizing what matters most (a fit for Glass/Plastic/Rubber)." },
+    { "section": "identity", "type": "Book", "title": "Spiritual Slavery to Spiritual Sonship — Jack Frost", "url": "https://shilohplace.org/", "description": "Referenced in the Identity in Christ exercise (orphan vs. sonship)." },
+    { "section": "identity", "type": "Assessment", "title": "VIA Character Strengths (free)", "url": "https://www.viacharacter.org/", "description": "Name your God-given character strengths." },
+    { "section": "mission", "type": "Book", "title": "The Purpose Driven Life — Rick Warren", "url": "https://pd.church/", "description": "A 40-day journey into your God-given purpose." },
+    { "section": "calling", "type": "Article", "title": "Frederick Buechner on Calling", "url": "https://www.frederickbuechner.com/quote-of-the-day/2017/7/18/vocation", "description": "\"The place where your deep gladness and the world's deep hunger meet.\"" },
+    { "section": "vision", "type": "Book", "title": "Living Forward — Michael Hyatt", "url": "https://livingforwardbook.com/", "description": "Build a life plan / vision you can act on." },
+    { "section": "launch", "type": "Guide", "title": "SMART Goals (MindTools)", "url": "https://www.mindtools.com/a4wo118/smart-goals", "description": "Turn your vision into specific, measurable steps." },
+    { "section": "assessment", "type": "Assessment", "title": "TTI TriMetrix HD", "url": "https://www.ttisi.com/", "description": "Your primary assessment — behaviors, driving forces, and acumen/mindset." }
+  ]
+}

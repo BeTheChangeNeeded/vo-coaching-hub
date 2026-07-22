@@ -1,0 +1,19 @@
+{
+  "id": "visionone",
+  "name": "VisionOne Career Hub",
+  "shortName": "VisionOne",
+  "tagline": "A modular AI workspace for career growth.",
+  "theme": {
+    "primary": "#649954",
+    "primaryDeep": "#4e7a42",
+    "accent": "#0081b7",
+    "sidebar": "#1f2937",
+    "sidebarDeep": "#111827",
+    "bg": "#f5f7f5",
+    "surface": "#ffffff",
+    "text": "#1f2937",
+    "logo": "/assets/img/visionone-logo-color.png"
+  },
+  "tools": ["about", "guided", "dashboard", "resume-tailor", "mock-interview", "career-coach", "jobs", "applications", "compensation", "trimetrix", "library", "coaching-summary", "resources"],
+  "coachInstructions": ""
+}

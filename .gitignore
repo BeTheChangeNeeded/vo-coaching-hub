@@ -1,0 +1,9 @@
+node_modules/
+api/local.settings.json
+.env
+*.log
+.DS_Store
+# Licensed CEG compensation report text — extracted locally, never committed.
+# Run api/_shared/data/ceg/_extract.js to regenerate from the licensed PDFs.
+api/_shared/data/ceg/*.txt
+api/_shared/data/ceg/manifest.json

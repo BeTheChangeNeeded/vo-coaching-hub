@@ -1,0 +1,40 @@
+{
+  "id": "career",
+  "name": "Career Compass",
+  "audience": "Career Seeker in Transition",
+  "tagline": "Navigate a career change or job search with clarity — align who you are with the work you're meant to do.",
+  "faith": false,
+  "terms": {
+    "God": "your purpose",
+    "Gods": "your purpose's",
+    "faithSource": "your values",
+    "calling": "career direction",
+    "Calling": "Career Direction",
+    "purpose": "purpose",
+    "prayer": "reflection",
+    "Prayer": "Reflection",
+    "pray": "reflect",
+    "spirit": "your inner compass",
+    "legacy": "legacy",
+    "community": "support network",
+    "bigVision": "Bold Career Vision",
+    "visionAdj": "bold career",
+    "designSource": "innate"
+  },
+  "coachInstructions": "This is the career-seeker track — someone navigating a career change, layoff, re-entry, or job search. Use practical, encouraging, career-focused language. Connect identity, strengths, and values to concrete career direction, roles, industries, and a healthy job-search process. Normalize that job search is emotionally hard; reinforce resilience and self-worth beyond outcomes. When useful, point them to concrete steps (informational interviews, resume, LinkedIn, networking). Avoid religious language unless they introduce it.",
+  "resources": [
+    { "section": "general", "type": "Tool", "title": "O*NET Online", "url": "https://www.onetonline.org/", "description": "Explore hundreds of careers — tasks, skills, salary, and outlook." },
+    { "section": "general", "type": "Tool", "title": "CareerOneStop (U.S. DOL)", "url": "https://www.careeronestop.org/", "description": "Free tools for career exploration, training, and job search." },
+    { "section": "anchors", "type": "Article", "title": "Managing Job-Search Stress (MindTools)", "url": "https://www.mindtools.com/", "description": "Protect your energy and resilience during a long search." },
+    { "section": "identity", "type": "Assessment", "title": "VIA Character Strengths (free)", "url": "https://www.viacharacter.org/", "description": "Discover your top character strengths to anchor your identity." },
+    { "section": "identity", "type": "Assessment", "title": "O*NET Interest Profiler", "url": "https://www.mynextmove.org/explore/ip", "description": "See which career families fit your interests." },
+    { "section": "mission", "type": "Book", "title": "What Color Is Your Parachute?", "url": "https://www.parachutebook.com/", "description": "The classic guide to purpose-driven career change." },
+    { "section": "calling", "type": "Article", "title": "Ikigai — a starting point", "url": "https://en.wikipedia.org/wiki/Ikigai", "description": "The intersection of what you love, are good at, can be paid for, and the world needs." },
+    { "section": "calling", "type": "Guide", "title": "Informational Interviewing (Harvard)", "url": "https://careerservices.fas.harvard.edu/resources/informational-interviews/", "description": "How to explore careers by talking to people who do them." },
+    { "section": "vision", "type": "Guide", "title": "SMART Goals (MindTools)", "url": "https://www.mindtools.com/a4wo118/smart-goals", "description": "Turn your career vision into specific, measurable goals." },
+    { "section": "launch", "type": "Guide", "title": "Harvard Résumé & Cover Letter Guide", "url": "https://careerservices.fas.harvard.edu/resources/harvard-college-resume-cover-letter-and-linkedin-guide/", "description": "A trusted, detailed guide to strong application materials." },
+    { "section": "launch", "type": "Tool", "title": "LinkedIn Jobs", "url": "https://www.linkedin.com/jobs/", "description": "Search openings, set alerts, and let recruiters find you." },
+    { "section": "launch", "type": "Tool", "title": "Indeed", "url": "https://www.indeed.com/", "description": "Broad job aggregator across industries and employers." },
+    { "section": "assessment", "type": "Assessment", "title": "TTI TriMetrix HD", "url": "https://www.ttisi.com/", "description": "Your primary assessment — behaviors, driving forces, and acumen/mindset." }
+  ]
+}

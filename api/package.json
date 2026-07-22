@@ -1,0 +1,12 @@
+{
+  "name": "vo-coaching-hub-api",
+  "version": "0.1.0",
+  "description": "Azure Functions API for the VisionOne Coaching Hub (TriMetrix HD + Identity-to-Impact).",
+  "main": "index.js",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.70.0",
+    "mammoth": "^1.8.0",
+    "openai": "^4.73.0",
+    "pdf-parse": "^1.1.1"
+  }
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- VisionOne High Performance Group · brand logo.
+     Vector reconstruction of the eye-and-aperture mark + wordmark.
+     If a higher-fidelity vector or production AI/EPS file becomes
+     available, drop it in at this path to replace.
+
+     Colors taken from the production brand palette:
+       • Primary green  #649954  (eye outline + leaf + tagline)
+       • Yellow         #EBD417  (lower-left aperture segment)
+       • Red            #C73127  (upper aperture segment)
+       • Blue           #0081B7  (right aperture segment)
+       • Purple         #74519A  (lower-right aperture segment)
+       • Wordmark dark  #1f2937 -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 360" role="img" aria-label="VisionOne High Performance Group">
+  <defs>
+    <clipPath id="vo-eye-clip">
+      <!-- Almond/eye-shaped clipping region for the aperture wheel -->
+      <path d="M 60 120 Q 200 30 340 120 Q 200 220 60 120 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- Green leaf above the eye (suggested with a curved arc) -->
+  <path d="M 235 30 Q 295 35 320 70 Q 285 100 240 95 Q 220 75 235 30 Z" fill="#649954"/>
+
+  <!-- Eye outline -->
+  <path d="M 60 120 Q 200 30 340 120 Q 200 220 60 120 Z" fill="none" stroke="#649954" stroke-width="11" stroke-linejoin="round"/>
+
+  <!-- Aperture / wheel inside the eye, clipped so segments don't escape -->
+  <g clip-path="url(#vo-eye-clip)" transform="translate(200 120)">
+    <!-- 5 colored segments arranged like a camera shutter / pinwheel -->
+    <!-- Top: red -->
+    <path d="M 0 0 L 0 -55 A 55 55 0 0 1 47 -27 Z" fill="#C73127"/>
+    <!-- Right: blue -->
+    <path d="M 0 0 L 47 -27 A 55 55 0 0 1 47 27 Z" fill="#0081B7"/>
+    <!-- Lower-right: purple -->
+    <path d="M 0 0 L 47 27 A 55 55 0 0 1 0 55 Z" fill="#74519A"/>
+    <!-- Lower-left: green -->
+    <path d="M 0 0 L 0 55 A 55 55 0 0 1 -47 27 Z" fill="#4d7a40"/>
+    <!-- Left: yellow -->
+    <path d="M 0 0 L -47 27 A 55 55 0 0 1 0 -55 Z" fill="#EBD417"/>
+    <!-- White center circle to add the "aperture" feel -->
+    <circle cx="0" cy="0" r="9" fill="#ffffff"/>
+  </g>
+
+  <!-- Wordmark "VisionOne" -->
+  <text x="260" y="270" font-family="Lato, 'Segoe UI', Arial, sans-serif" font-weight="900" font-size="62" fill="#1f2937" text-anchor="middle" letter-spacing="-1">
+    VisionOne
+  </text>
+
+  <!-- Tagline "HIGH PERFORMANCE GROUP" -->
+  <text x="260" y="310" font-family="Lato, 'Segoe UI', Arial, sans-serif" font-weight="700" font-size="20" fill="#649954" text-anchor="middle" letter-spacing="3.5">
+    HIGH PERFORMANCE GROUP
+  </text>
+</svg>

@@ -1,0 +1,416 @@
+{
+  "meta": {
+    "title": "Identity to Impact",
+    "subtitle": "A guided journey from who you are to the impact you'll make.",
+    "source": "Adapted from the VisionOne Identity to Impact / Legacy Discovery Journal (© 2009–2025 VisionOne High Performance Group).",
+    "defaultTerms": {
+      "God": "God",
+      "Gods": "God's",
+      "faithSource": "God",
+      "calling": "calling",
+      "Calling": "Calling",
+      "purpose": "purpose",
+      "prayer": "prayer",
+      "Prayer": "Prayer",
+      "pray": "pray",
+      "spirit": "the Holy Spirit",
+      "legacy": "legacy",
+      "community": "faith community",
+      "bigVision": "God-Sized Vision",
+      "visionAdj": "God-sized",
+      "designSource": "God-given"
+    }
+  },
+  "sections": [
+    {
+      "id": "anchors",
+      "kind": "anchors",
+      "title": "Transformation Anchors",
+      "tagline": "Build a strong foundation before you dig in.",
+      "intro": "Transformation Anchors are the mindsets, practices, skills, and resources that keep you grounded, steady, and moving forward — whether the journey feels exciting, stretching, or overwhelming. Return to them often. Think of them as anchors that keep you from drifting when life's currents pull you off course.",
+      "icon": "⚓",
+      "exercises": [
+        {
+          "id": "goal",
+          "title": "My Goal for This Journey",
+          "purpose": "Before you begin, clarify your goal. What do you hope to discover, shift, or grow into by working through identity, mission, calling, vision, and {{legacy}}?",
+          "scripture": ["“Write the vision; make it plain on tablets, so he may run who reads it.” — Habakkuk 2:2"],
+          "science": "Goal-setting research shows people who clearly define and write down their goals are 42% more likely to achieve them.",
+          "steps": [
+            { "id": "reason", "label": "Main reason", "prompt": "What is the main reason you are walking through this journey right now?", "input": "textarea", "example": "I'm going through a season shift — a career change, and my kids are launching. I want to reflect on what this next season will look like." },
+            { "id": "outcomes", "label": "Desired outcomes", "prompt": "By the end of this journey, what do you want to have discovered, clarified, or experienced?", "input": "list", "example": "Gain clarity on my identity in this new season." },
+            { "id": "guardrails", "label": "Guardrails", "prompt": "What values, priorities, or boundaries will keep you safe and focused as you walk this journey?", "input": "list", "example": "Protect family time as a priority." },
+            { "id": "limiting", "label": "Limiting → Enabling beliefs", "prompt": "What limiting belief might hold you back — and what enabling truth can you choose instead?", "input": "pairs", "leftLabel": "Limiting belief", "rightLabel": "Enabling belief", "example": "“I'm too late to start something new.” → “It's never too late; timing can be perfect.”" },
+            { "id": "actions", "label": "Actions", "prompt": "What steps will you take to engage with this journey and apply what you learn?", "input": "list", "example": "Work through one section per week; meet my coach bi-weekly." },
+            { "id": "support", "label": "Support & resources", "prompt": "Who or what will support you (mentors, {{prayer}} partners, community, resources)?", "input": "list" },
+            { "id": "metrics", "label": "Measures of success", "prompt": "How will you measure progress? How will you know you're growing?", "input": "list" }
+          ]
+        },
+        {
+          "id": "guardrails-balls",
+          "title": "Glass, Plastic & Rubber Balls",
+          "purpose": "Not every commitment carries the same weight. Some are glass (fragile, protect at all costs), some plastic (important but recoverable), and some rubber (they bounce back). Wise energy management means protecting the glass, managing the plastic, and releasing the rubber.",
+          "scripture": ["“Teach us to number our days, that we may gain a heart of wisdom.” — Psalm 90:12"],
+          "science": "Impact isn't about time management — time is fixed. It's energy management. Clear priorities reduce decision fatigue and lower cortisol, freeing energy for what truly matters.",
+          "steps": [
+            { "id": "sort", "label": "Sort your priorities", "prompt": "List your major responsibilities and mark each as Glass, Plastic, or Rubber.", "input": "table", "columns": ["Priority / Responsibility", "Type (Glass/Plastic/Rubber)", "Energy (+ / ~ / –)"] },
+            { "id": "reflect", "label": "Reflect", "prompt": "Which glass balls need stronger protection? Which plastic balls can you set down? Which rubber balls should you release?", "input": "textarea" },
+            { "id": "act", "label": "One action this week", "prompt": "Choose one action: protect a glass ball, release a rubber ball, or adjust a plastic ball.", "input": "text" }
+          ]
+        },
+        {
+          "id": "coachable",
+          "title": "Am I Coachable?",
+          "purpose": "Transformation requires a coachable heart — vulnerability, authenticity, and openness to feedback. This anchor helps you check your posture before you dig in.",
+          "scripture": ["“The way of a fool is right in his own eyes, but a wise man listens to advice.” — Proverbs 12:15"],
+          "science": "A growth mindset — believing ability can develop — predicts resilience and long-term achievement more than talent alone.",
+          "steps": [
+            { "id": "posture", "label": "Self-check", "prompt": "Where are you most guarded right now? Where are you most open? Be honest.", "input": "textarea" },
+            { "id": "feedback", "label": "Invite feedback", "prompt": "Who will you invite to speak truth into this journey, and what permission will you give them?", "input": "textarea" }
+          ]
+        },
+        {
+          "id": "life-wheel",
+          "title": "Life Account Wheel",
+          "purpose": "The Life Wheel gives you a snapshot of your growth and balance across the areas of your life. It's not a one-time reflection — revisit it often to reset, reframe, and move forward.",
+          "science": "Self-reflection and progress tracking increase motivation and long-term growth (positive psychology).",
+          "steps": [
+            { "id": "wheel", "label": "Rate each area (0–10)", "prompt": "How satisfied are you with each area of life today?", "input": "wheel", "areas": ["Faith / Spiritual", "Family", "Health", "Work / Vocation", "Finances", "Relationships", "Growth / Learning", "Fun / Recreation"] },
+            { "id": "notes", "label": "What stands out?", "prompt": "Which area most needs your attention this season? What would a small step forward look like?", "input": "textarea" }
+          ]
+        },
+        {
+          "id": "declarations-21",
+          "title": "21-Day Declarations",
+          "purpose": "Speaking truth consistently rewires your mind. Capture limiting beliefs and rewrite them into declarations of truth you'll declare daily.",
+          "scripture": ["“Do not conform to the pattern of this world, but be transformed by the renewing of your mind.” — Romans 12:2"],
+          "science": "As little as 4–7 minutes of reflective thought per day begins to rewire the brain; 21 days of focus forms a new belief pattern; 60–90 days reinforces the habit.",
+          "steps": [
+            { "id": "decls", "label": "My declarations", "prompt": "Write the truths you will declare over yourself for the next 21 days.", "input": "list", "example": "I am God's workmanship, created for good works." }
+          ]
+        },
+        {
+          "id": "show-do-teach",
+          "title": "Show – Do – Teach",
+          "purpose": "Lasting growth moves from being shown, to doing, to teaching. Every exercise in this journey ends by inviting you to apply and share what you learned.",
+          "steps": [
+            { "id": "show", "label": "Show — what I learned", "prompt": "Write one thing you've learned recently.", "input": "text" },
+            { "id": "do", "label": "Do — how I'll practice it", "prompt": "Write one way you practiced or could practice this idea.", "input": "text" },
+            { "id": "teach", "label": "Teach — how I'll share it", "prompt": "Write one way you shared or could share this learning with someone else.", "input": "text" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "identity",
+      "kind": "pillar",
+      "title": "Identity",
+      "statement": "This is who I am.",
+      "tagline": "Your {{designSource}} design, strengths, values, and the unique way you're wired.",
+      "icon": "🧭",
+      "intro": "Identity is the foundation of everything else. Before you step into mission, calling, or vision, you need clarity and confidence about who you are and whose you are. Your identity is not your job, roles, thoughts, or circumstances — those change. It is rooted in {{God}}, shaped by nature and nurture, and revealed through the unique way you're designed.",
+      "exercises": [
+        {
+          "id": "identity-in-christ",
+          "title": "Identity in {{God}} — Whose I Am",
+          "faithFocus": true,
+          "purpose": "Before you can fully discover your {{calling}}, be secure in your identity as a beloved son or daughter of {{God}}. Your identity is not what you do or how you feel — it is who {{God}} says you are.",
+          "scripture": ["Romans 8:15–17 — adoption as sons and daughters", "2 Corinthians 5:17 — a new creation", "Ephesians 2:10 — God's workmanship, created for good works"],
+          "steps": [
+            { "id": "reflect", "label": "Reflection", "prompt": "What does {{God}} say is true about who you are? Write what stands out.", "input": "textarea" },
+            { "id": "orphan-son", "label": "Orphan vs. Sonship", "prompt": "Where do you tend toward an orphan heart (striving, self-reliant, insecure) versus a sonship heart (rest, trust, secure)? Name one area {{God}} wants to transform.", "input": "textarea" },
+            { "id": "declare", "label": "Declare the truth", "prompt": "Write a declaration of your identity based on what you discovered.", "input": "text" }
+          ],
+          "variants": {
+            "military": {
+              "title": "Identity Beyond the Uniform",
+              "purpose": "Your identity is not your rank, your MOS, or the mission — those can change or end. Before you can chart your next move, get clear on who you are at the core, apart from the uniform.",
+              "steps": [
+                { "id": "reflect", "label": "Who am I beyond the role?", "prompt": "Strip away rank, unit, and job title. Who are you at the core — the values and character that don't change when the uniform comes off?", "example": "I'm someone who shows up, takes care of my people, and finishes what I start." },
+                { "id": "orphan-son", "label": "Striving vs. secure", "prompt": "Where do you tend to prove yourself, stay guarded, or go it alone — versus operate from a settled, secure sense of who you are? Name one area to work on.", "example": "" }
+              ]
+            },
+            "business": {
+              "title": "Identity Beyond the Title",
+              "purpose": "Your identity is not your position, your results, or others' opinions — those shift. Grounded leadership starts with knowing who you are apart from what you achieve.",
+              "steps": [
+                { "id": "reflect", "label": "Who am I beyond the role?", "prompt": "Apart from your title and performance, who are you at the core — the values and character that stay constant across roles?", "example": "I'm someone who builds people up and does the right thing even when it's costly." },
+                { "id": "orphan-son", "label": "Proving vs. secure", "prompt": "Where do you lead from a need to prove or protect — versus from a settled, secure identity? Name one area to work on.", "example": "" }
+              ]
+            },
+            "career": {
+              "title": "Identity Beyond the Job Title",
+              "purpose": "Your identity is not your job, your title, or your last role — and in a search, all of those are in flux. Ground yourself in who you are at the core so your search flows from confidence, not fear or rejection.",
+              "steps": [
+                { "id": "reflect", "label": "Who am I beyond the job?", "prompt": "Apart from any title or employer, who are you at the core — the strengths, values, and character you bring to any role?", "example": "I'm a problem-solver who brings calm and follow-through to messy situations." },
+                { "id": "orphan-son", "label": "Fear vs. confidence", "prompt": "Where does the job search pull you toward fear, comparison, or feeling 'less than' — versus a settled confidence in your worth? Name one area to steady.", "example": "" }
+              ]
+            }
+          }
+        },
+        {
+          "id": "meaning-of-name",
+          "title": "The Meaning of Your Name",
+          "purpose": "Names carry spiritual and personal significance. Discover the meaning of your name, reflect on it, and declare its truth over your life.",
+          "steps": [
+            { "id": "name", "label": "Your name(s)", "prompt": "What is your given name, and its meaning or origin?", "input": "text" },
+            { "id": "significance", "label": "Significance", "prompt": "How does the meaning of your name connect to who you are or who you're becoming?", "input": "textarea" }
+          ]
+        },
+        {
+          "id": "assessments",
+          "title": "Assessments — Who I Am",
+          "purpose": "Tools like TriMetrix HD give language to how you're wired. They aren't your identity, but they offer helpful insight into your behaviors, driving forces, and mindset.",
+          "science": "Self-awareness is consistently linked to better decisions, stronger relationships, and higher performance.",
+          "linkTool": "trimetrix",
+          "steps": [
+            { "id": "insights", "label": "Assessment insights", "prompt": "From your TriMetrix HD (or other assessments), what are your top strengths and driving forces? Upload your report in the TriMetrix tool for a personalized debrief.", "input": "textarea" }
+          ]
+        },
+        {
+          "id": "evidence",
+          "title": "Discovering Evidence of Who I Am",
+          "purpose": "Your story leaves clues. Reflect on moments, experiences, and achievements that reveal who you are at your core.",
+          "steps": [
+            { "id": "moments", "label": "Defining moments", "prompt": "List experiences (high points and hard points) that shaped who you are. What do they reveal?", "input": "list" },
+            { "id": "themes", "label": "Patterns", "prompt": "What themes or strengths keep showing up across these moments?", "input": "textarea" }
+          ]
+        },
+        {
+          "id": "core-values",
+          "title": "Core Personal Values",
+          "purpose": "Your values are the compass of your identity. Identify the top values that shape your decisions and relationships.",
+          "steps": [
+            { "id": "values", "label": "My top values", "prompt": "Use the interactive Core Values Card Sort to weed down to your top 3–5 — or list them here. For each, note why it matters.", "input": "list", "example": "Integrity — I want my private and public life to match.", "linkTool": "values" },
+            { "id": "categories", "label": "Values in each area of life", "prompt": "How do these values show up in family, faith, work, and friendships?", "input": "textarea" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "mission",
+      "kind": "pillar",
+      "title": "Purpose & Mission",
+      "statement": "This is my why — my mandate.",
+      "tagline": "The impact you're created to make and the “why” that fuels your life.",
+      "icon": "🎯",
+      "intro": "Purpose and mission are about uncovering the deeper drivers and burdens beneath the surface — the impact you are created to make.",
+      "exercises": [
+        {
+          "id": "obituary",
+          "title": "Write Your Obituary / Tribute",
+          "purpose": "This exercise forces reflection on the ultimate impact of your life. What would you want said about you when your life is complete? This clarifies what matters most.",
+          "scripture": ["“Teach us to number our days, that we may gain a heart of wisdom.” — Psalm 90:12"],
+          "steps": [
+            { "id": "tribute", "label": "My tribute", "prompt": "Write the tribute you would want spoken about your life. Who were you? What did you stand for? What did you leave behind?", "input": "textarea" }
+          ]
+        },
+        {
+          "id": "burdens",
+          "title": "What Are My Burdens?",
+          "purpose": "Burdens often point to calling. Identify what breaks your heart or compels you to act — those are often tied to your {{God}}-given mission.",
+          "steps": [
+            { "id": "breaks", "label": "What breaks my heart", "prompt": "What injustices, needs, or problems stir something deep in you?", "input": "list" },
+            { "id": "compels", "label": "What compels me", "prompt": "What are you drawn to fix, build, or change — even when no one asks you to?", "input": "textarea" }
+          ]
+        },
+        {
+          "id": "five-whys",
+          "title": "The 5 Whys",
+          "purpose": "A simple but powerful exercise to dig beneath the surface. Asking “why” repeatedly uncovers the root reasons beneath your answers.",
+          "steps": [
+            { "id": "whys", "label": "Five layers of why", "prompt": "Start with something you care about, then ask “why does that matter?” five times, each answer going deeper.", "input": "list" }
+          ]
+        },
+        {
+          "id": "more-less",
+          "title": "More Of / Less Of",
+          "purpose": "Clarify what energizes you and what drains you, so you can steer your life toward your mission.",
+          "steps": [
+            { "id": "more", "label": "More of", "prompt": "What do you want more of in this season?", "input": "list" },
+            { "id": "less", "label": "Less of", "prompt": "What do you want less of?", "input": "list" }
+          ]
+        },
+        {
+          "id": "mission-statement",
+          "title": "My Purpose Statement",
+          "purpose": "Distill everything above into a single, memorable statement of your why.",
+          "steps": [
+            { "id": "statement", "label": "My purpose statement", "prompt": "In one or two sentences, write your purpose — your mandate for this season.", "input": "textarea", "example": "To equip people in transition to discover their identity and step into their calling with courage." }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "calling",
+      "kind": "pillar",
+      "title": "Calling",
+      "statement": "This is what I'm called to.",
+      "tagline": "The specific ways you express your identity and purpose in the world.",
+      "variants": {
+        "ministry": { "statement": "This is what God has called me to." },
+        "military": { "title": "Mission & Purpose", "statement": "This is the mission I'm called to." },
+        "business": { "title": "Purpose & Contribution", "statement": "This is the contribution I'm called to make." },
+        "career": { "title": "Career Direction & Calling", "statement": "This is the work I'm meant to do." }
+      },
+      "icon": "🧭",
+      "intro": "Calling is the bridge between who I am / why I exist and what I actually do. It's about exploring desires, burdens, passions, and dreams to discern what you've been uniquely entrusted with. Callings shift across life stages — you may have several at once.",
+      "exercises": [
+        {
+          "id": "seasons",
+          "title": "Seasons of Calling",
+          "purpose": "Calling shifts across life stages and may include multiple callings at once. Name the season you're in.",
+          "steps": [
+            { "id": "season", "label": "My current season", "prompt": "What season are you in (beginning, rebuilding, launching, releasing)? What might {{God}} be calling you to in it?", "input": "textarea" }
+          ]
+        },
+        {
+          "id": "who-help",
+          "title": "Who Do I Want to Help?",
+          "purpose": "Identify the people or causes you feel drawn toward — a strong clue to your calling.",
+          "steps": [
+            { "id": "people", "label": "People or causes", "prompt": "Who are you drawn to serve? Describe them as specifically as you can.", "input": "textarea" }
+          ]
+        },
+        {
+          "id": "hundred-dreams",
+          "title": "100 Dreams",
+          "purpose": "Wide-open brainstorming of everything you desire to do, experience, create, or impact. Think expansively before you narrow down.",
+          "science": "Expansive ideation before evaluation produces more and better ideas (divergent-then-convergent thinking).",
+          "steps": [
+            { "id": "dreams", "label": "My dreams", "prompt": "List as many dreams as you can — aim for 100. Don't filter; just capture.", "input": "list" }
+          ]
+        },
+        {
+          "id": "letter-future",
+          "title": "Letter From the Future",
+          "purpose": "Write a narrative imagining your life 20 years from now, looking back on how your calling unfolded and how you grew.",
+          "steps": [
+            { "id": "letter", "label": "Letter from my future self", "prompt": "Write a letter from your future self, describing the life you're living and the journey that got you there.", "input": "textarea" }
+          ]
+        },
+        {
+          "id": "ikigai",
+          "title": "Convergence: Ikigai",
+          "purpose": "Explore where passion, mission, vocation, and profession meet — what you love, what you're good at, what the world needs, and what you can be valued for.",
+          "steps": [
+            { "id": "love", "label": "What I love", "prompt": "What do you love doing?", "input": "textarea" },
+            { "id": "good", "label": "What I'm good at", "prompt": "What are you naturally good at?", "input": "textarea" },
+            { "id": "needs", "label": "What the world needs", "prompt": "What need are you drawn to meet?", "input": "textarea" },
+            { "id": "valued", "label": "What I can be valued for", "prompt": "What could you be paid or valued for?", "input": "textarea" },
+            { "id": "convergence", "label": "The convergence", "prompt": "Where do these overlap? Name the calling that emerges.", "input": "textarea" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "vision",
+      "kind": "pillar",
+      "title": "Vision & Assignment",
+      "statement": "This is where I focus.",
+      "tagline": "The future picture that guides your decisions and direction.",
+      "icon": "🔭",
+      "intro": "Vision refines and structures your dreams and calling into a {{visionAdj}} picture and practical direction. Dream forward — then bring the future into the present through concrete horizons.",
+      "exercises": [
+        {
+          "id": "god-sized",
+          "title": "{{bigVision}}",
+          "purpose": "Stretch into the biggest future picture possible. What could your life look like if you fully lived into your {{calling}}?",
+          "scripture": ["“Now to him who is able to do immeasurably more than all we ask or imagine…” — Ephesians 3:20"],
+          "steps": [
+            { "id": "vision", "label": "My {{visionAdj}} vision", "prompt": "Describe the biggest, boldest picture of your future you can imagine. Hold it loosely; dream freely.", "input": "textarea", "example": "Ten years from now I've built something that outlasts me and changed lives beyond my own." }
+          ],
+          "variants": {
+            "military": { "steps": [ { "id": "vision", "example": "A civilian life with the same sense of mission I had in uniform — leading a team that matters and providing for my family." } ] },
+            "business": { "steps": [ { "id": "vision", "example": "Leading an organization known for developing people and delivering results that endure beyond my tenure." } ] }
+          }
+        },
+        {
+          "id": "legacy-vision",
+          "title": "Legacy Vision",
+          "purpose": "Look beyond your lifetime — the ripple effect across generations. Legacy shifts focus from short-term success to long-term significance.",
+          "science": "Thinking beyond one's own lifetime (generativity) is linked to greater purpose, resilience, and well-being.",
+          "steps": [
+            { "id": "legacy", "label": "My legacy vision", "prompt": "What lasting influence do you want to carry forward into future generations — values, truths, and impact that outlive you?", "input": "textarea" }
+          ]
+        },
+        {
+          "id": "horizons",
+          "title": "20 / 10 / 5 / 1-Year Vision",
+          "purpose": "Narrow the God-sized vision into concrete horizons. Where do you hope to be across time?",
+          "steps": [
+            { "id": "y20", "label": "20-year vision", "prompt": "Where do you hope to be in 20 years?", "input": "textarea" },
+            { "id": "y10", "label": "10-year vision", "prompt": "In 10 years?", "input": "textarea" },
+            { "id": "y5", "label": "5-year vision", "prompt": "In 5 years?", "input": "textarea" },
+            { "id": "y1", "label": "1-year vision", "prompt": "In the next year?", "input": "textarea" }
+          ]
+        },
+        {
+          "id": "dream-busters",
+          "title": "Dream Busters",
+          "purpose": "Identify the fears, lies, and barriers that hold you back — blind spots, limiting beliefs, and strongholds — then reverse them.",
+          "steps": [
+            { "id": "busters", "label": "What holds me back", "prompt": "Name the fears or lies that keep you from dreaming or pursuing your vision.", "input": "list" },
+            { "id": "reverse", "label": "The truth that reverses them", "prompt": "For each dream buster, write the truth that reverses it.", "input": "list", "linkTool": "reports" }
+          ]
+        },
+        {
+          "id": "failing-forward",
+          "title": "Failing Forward",
+          "purpose": "Build resilience for when plans shift. Failure is data and fuel, not a verdict.",
+          "steps": [
+            { "id": "resilience", "label": "My resilience plan", "prompt": "When a plan fails or a door closes, how will you respond and keep moving forward?", "input": "textarea" }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "launch",
+      "kind": "pillar",
+      "title": "Launch",
+      "statement": "This is the part I play now.",
+      "tagline": "From dreaming to doing — momentum and commitment, sealed.",
+      "icon": "🚀",
+      "intro": "Launch is where dreaming becomes doing. This is where momentum and commitment are sealed with concrete steps, a declaration, and an accountability covenant.",
+      "exercises": [
+        {
+          "id": "launch-plan",
+          "title": "Launch Plan",
+          "purpose": "Turn your vision into actionable goals. Concrete steps make your direction clear and measurable.",
+          "linkTool": "goals",
+          "steps": [
+            { "id": "steps", "label": "My first steps", "prompt": "What are the first concrete steps that turn your vision into action? (Build these into versioned goals in the Goals & Plans tool.)", "input": "list" }
+          ]
+        },
+        {
+          "id": "declaration-launch",
+          "title": "Declaration of Launch",
+          "purpose": "Put your commitment into words — declaring to {{God}}, yourself, and trusted others what you are stepping into.",
+          "steps": [
+            { "id": "declaration", "label": "My declaration of launch", "prompt": "Write your declaration of what you are stepping into and why.", "input": "textarea" }
+          ]
+        },
+        {
+          "id": "covenant",
+          "title": "Support & Accountability Covenant",
+          "purpose": "Name the people who will encourage and hold you accountable, and how you'll stay connected.",
+          "science": "Accountability partners increase goal achievement by up to 65%; regular check-ins raise it to 95%.",
+          "steps": [
+            { "id": "covenant", "label": "My covenant", "prompt": "Who will walk with you, and what rhythm of check-ins will you commit to?", "input": "textarea", "linkTool": "coach" }
+          ]
+        }
+      ]
+    }
+  ],
+  "tabs": [
+    { "id": "notes", "title": "Resources & Notes", "icon": "🗒️", "prompt": "Capture class notes, teaching moments, and personal reflections here.", "input": "journal" },
+    { "id": "weekly", "title": "Action Plans & Weekly Check-In", "icon": "✅", "prompt": "Each week, pause and ask: What am I celebrating (what's working)? What isn't working? What do I need to focus on next?", "input": "weekly" },
+    { "id": "thanksgiving", "title": "Thanksgiving", "icon": "🙏", "prompt": "Daily gratitude is a powerful key to transformation. Over time these notes become clues to who you are and what {{God}} is doing.", "input": "journal" },
+    { "id": "bible", "title": "Bible Reflection", "icon": "📖", "prompt": "Record verses that speak to you during the journey. Scripture anchors you in truth.", "input": "journal", "faithOnly": true },
+    { "id": "prayers", "title": "Prayers & Praise", "icon": "🕊️", "prompt": "Capture {{prayer}} requests and praise reports. Track {{God}}'s faithfulness and notice patterns.", "input": "journal", "faithOnly": true },
+    { "id": "dreams", "title": "Dreams & Art", "icon": "🎨", "prompt": "Record night dreams, visions, and creative expressions. Over time, themes may emerge.", "input": "journal" },
+    { "id": "prophetic", "title": "Prophetic Words", "icon": "💬", "prompt": "Capture words spoken over your life so you can return to them, {{pray}} into them, and test them.", "input": "journal", "faithOnly": true },
+    { "id": "declarations", "title": "Declarations", "icon": "💪", "prompt": "Rewrite limiting beliefs into truth-filled declarations. Speaking truth consistently rewires your mind.", "input": "journal" },
+    { "id": "themes", "title": "Themes & Gold", "icon": "✨", "prompt": "As you work through every section, notice recurring themes and patterns. Bring it all together — the “gold” of who you are and what you're called to.", "input": "journal", "linkTool": "reports" }
+  ]
+}

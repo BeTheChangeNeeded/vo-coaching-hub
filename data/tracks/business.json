@@ -1,0 +1,37 @@
+{
+  "id": "business",
+  "name": "Lead With Purpose",
+  "audience": "Business Leader",
+  "tagline": "Align who you are with how you lead — clarify your purpose, vision, and legacy as a leader.",
+  "faith": false,
+  "terms": {
+    "God": "your core purpose",
+    "Gods": "your purpose's",
+    "faithSource": "your values",
+    "calling": "purpose",
+    "Calling": "Purpose",
+    "purpose": "purpose",
+    "prayer": "reflection",
+    "Prayer": "Reflection",
+    "pray": "reflect",
+    "spirit": "your inner compass",
+    "legacy": "legacy",
+    "community": "peer network",
+    "bigVision": "Bold, Legacy-Scale Vision",
+    "visionAdj": "bold, legacy-scale",
+    "designSource": "core"
+  },
+  "coachInstructions": "This is the business-leader track. Use professional, growth-oriented language. Connect identity and values to leadership presence, decision-making, team culture, and long-term legacy. Draw on the VisionOne High Performance leadership frameworks. Avoid religious language unless the coachee introduces it.",
+  "resources": [
+    { "section": "general", "type": "Publication", "title": "Harvard Business Review", "url": "https://hbr.org/", "description": "Leading research and practice on leadership and management." },
+    { "section": "anchors", "type": "Book", "title": "Atomic Habits — James Clear", "url": "https://jamesclear.com/atomic-habits", "description": "Build the small habits that compound into big results." },
+    { "section": "identity", "type": "Assessment", "title": "CliftonStrengths (Gallup)", "url": "https://www.gallup.com/cliftonstrengths/", "description": "Discover your top talents as a leader." },
+    { "section": "identity", "type": "Assessment", "title": "VIA Character Strengths (free)", "url": "https://www.viacharacter.org/", "description": "Anchor your leadership in your core character strengths." },
+    { "section": "mission", "type": "Book", "title": "Start With Why — Simon Sinek", "url": "https://simonsinek.com/books/start-with-why/", "description": "Lead from a clear sense of purpose." },
+    { "section": "calling", "type": "Article", "title": "HBR: From Purpose to Impact", "url": "https://hbr.org/2014/05/from-purpose-to-impact", "description": "Craft a personal leadership purpose statement." },
+    { "section": "vision", "type": "Tool", "title": "OKRs — What Matters", "url": "https://www.whatmatters.com/", "description": "Turn vision into objectives and key results." },
+    { "section": "launch", "type": "Book", "title": "The First 90 Days — Michael Watkins", "url": "https://hbr.org/books/watkins", "description": "A playbook for stepping strong into a new role or mandate." },
+    { "section": "launch", "type": "Guide", "title": "SMART Goals (MindTools)", "url": "https://www.mindtools.com/a4wo118/smart-goals", "description": "Turn your vision into measurable commitments." },
+    { "section": "assessment", "type": "Assessment", "title": "TTI TriMetrix HD", "url": "https://www.ttisi.com/", "description": "Your primary assessment — behaviors, driving forces, and acumen/mindset." }
+  ]
+}

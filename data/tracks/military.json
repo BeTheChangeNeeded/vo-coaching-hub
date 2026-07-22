@@ -1,0 +1,39 @@
+{
+  "id": "military",
+  "name": "Mission Forward",
+  "audience": "Service Member in Transition",
+  "tagline": "Translate your service into a clear identity, mission, and plan for civilian life.",
+  "faith": false,
+  "terms": {
+    "God": "your deeper purpose",
+    "Gods": "your purpose's",
+    "faithSource": "your core convictions",
+    "calling": "mission",
+    "Calling": "Mission",
+    "purpose": "purpose",
+    "prayer": "reflection",
+    "Prayer": "Reflection",
+    "pray": "reflect",
+    "spirit": "your inner compass",
+    "legacy": "legacy",
+    "community": "support network",
+    "bigVision": "Mission-Sized Vision",
+    "visionAdj": "mission-sized",
+    "designSource": "hard-earned"
+  },
+  "coachInstructions": "This is the military-to-civilian transition track. Use secular, mission-oriented language. Translate military strengths (leadership, discipline, teamwork, mission focus) into civilian value. Address common transition challenges: identity shift, translating skills, finding new purpose. Avoid religious language unless the coachee introduces it.",
+  "resources": [
+    { "section": "general", "type": "Program", "title": "DOD Transition Assistance Program (TAP)", "url": "https://www.dol.gov/agencies/vets/programs/tap", "description": "Benefits, education, and employment support for your transition." },
+    { "section": "general", "type": "Tool", "title": "Military OneSource", "url": "https://www.militaryonesource.mil/", "description": "Free confidential support for service members and families." },
+    { "section": "anchors", "type": "Training", "title": "PsychArmor (free courses)", "url": "https://psycharmor.org/", "description": "Resilience and transition courses for the military community." },
+    { "section": "identity", "type": "Tool", "title": "O*NET Military Crosswalk", "url": "https://www.onetonline.org/crosswalk/MOC/", "description": "Translate your MOS/rating into civilian occupations." },
+    { "section": "identity", "type": "Assessment", "title": "VIA Character Strengths (free)", "url": "https://www.viacharacter.org/", "description": "Name the strengths you bring beyond the uniform." },
+    { "section": "mission", "type": "Book", "title": "Start With Why — Simon Sinek", "url": "https://simonsinek.com/books/start-with-why/", "description": "Reconnect with your deeper 'why' for the next mission." },
+    { "section": "calling", "type": "Program", "title": "DOD SkillBridge", "url": "https://skillbridge.osd.mil/", "description": "Civilian on-the-job training during your last 180 days of service." },
+    { "section": "calling", "type": "Tool", "title": "My Next Move for Veterans", "url": "https://www.mynextmove.org/vets/", "description": "Find civilian careers that match your military experience." },
+    { "section": "vision", "type": "Guide", "title": "SMART Goals (MindTools)", "url": "https://www.mindtools.com/a4wo118/smart-goals", "description": "Turn your vision into a clear, measurable plan." },
+    { "section": "launch", "type": "Benefit", "title": "VA Education Benefits / GI Bill", "url": "https://www.va.gov/education/", "description": "Education and training benefits you've earned." },
+    { "section": "launch", "type": "Tool", "title": "USAJOBS", "url": "https://www.usajobs.gov/", "description": "Federal jobs with veterans' preference." },
+    { "section": "assessment", "type": "Assessment", "title": "TTI TriMetrix HD", "url": "https://www.ttisi.com/", "description": "Your primary assessment — behaviors, driving forces, and acumen/mindset." }
+  ]
+}

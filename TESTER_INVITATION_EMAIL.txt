@@ -1,0 +1,70 @@
+Subject: You're Invited to Test VisionOne Coaching Hub
+
+Hi [Tester Name],
+
+We're excited to invite you to test VisionOne Coaching Hub—a new AI-powered coaching platform designed to help leaders and coaches guide people through major life transitions.
+
+=== WHAT TO EXPECT ===
+
+The Coaching Hub is built around a structured 5-pillar journey: Identity → Mission → Calling → Vision → Launch. It includes:
+- Transformation Anchors (goal setting, mindsets, 21-day declarations)
+- Interactive exercises and journal tabs for reflection
+- TriMetrix HD assessment integration
+- AI coaching companion for between-session support
+- Coach-to-coachee collaboration tools
+- Track-aware resources (ministry, military, business, career)
+
+=== HOW TO GET STARTED ===
+
+1. Go to: https://coaching-runmai.visiononeperformance.com
+2. Sign in with either:
+   • Your Microsoft/work account, OR
+   • Your Google account
+3. On the home page, select your preferred track:
+   • Ministry Track ("Identity to Impact") — faith-rooted coaching
+   • Military Track ("Mission Forward") — service to civilian transition
+   • Business Track ("Lead With Purpose") — leadership development
+   • Career Track ("Career Compass") — job search and career change
+
+4. Start with the "Get Started" section to explore the guided tour
+5. Walk through an exercise to see how the platform works
+6. Try the AI Coach Companion for between-session support
+
+=== IMPORTANT: DEMO MODE ===
+
+**This is a demo environment showing all user views for testing purposes:**
+- You can see both the coachee experience AND the coach experience
+- You can test sharing, notes, and collaboration features
+- In a live version, users would only see their own role (coachee or coach)
+
+This multi-role view is intentional for testing—it won't exist in production.
+
+=== WHAT WE'D LIKE YOU TO TEST ===
+
+- Navigation and ease of use
+- Exercise clarity and relevance to the selected track
+- AI responses (coach companion, explanations)
+- Sharing and coach collaboration flow
+- Any bugs or confusing moments
+
+=== FEEDBACK ===
+
+Please share your thoughts on:
+- What works well
+- What's confusing
+- What's missing
+- Any technical issues
+
+Reply to this email with feedback, questions, or bugs.
+
+=== QUESTIONS? ===
+
+Reach out anytime. We're here to help.
+
+Thanks for being part of this!
+
+Best,
+[Your Name]
+VisionOne High Performance Group
+info@visiononeperformance.com
+visiononeperformance.com

@@ -1,0 +1,26 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+
+    "_comment_ai": "Configure any/all of the three providers to A/B test them. AI_PROVIDER is the default; the UI lets you switch and compare. If AI_PROVIDER is unset, the first configured provider is used.",
+    "AI_PROVIDER": "azure",
+
+    "AZURE_OPENAI_ENDPOINT": "https://<your-foundry-resource>.openai.azure.com/",
+    "AZURE_OPENAI_API_KEY": "<your-azure-openai-key>",
+    "AZURE_OPENAI_DEPLOYMENT": "gpt-4.1",
+    "AZURE_OPENAI_DEPLOYMENT_FAST": "gpt-4.1-mini",
+    "AZURE_OPENAI_API_VERSION": "2024-10-21",
+
+    "ANTHROPIC_API_KEY": "<your-anthropic-key>",
+
+    "OPENAI_API_KEY": "<your-openai-key>",
+    "OPENAI_MODEL": "gpt-4.1",
+    "OPENAI_MODEL_FAST": "gpt-4.1-mini",
+
+    "ACS_CONNECTION_STRING": "endpoint=https://<your-acs>.communication.azure.com/;accesskey=...",
+    "ACS_SENDER": "DoNotReply@<your-verified-domain>",
+    "UPDATE_RECIPIENTS": "you@example.com"
+  }
+}
